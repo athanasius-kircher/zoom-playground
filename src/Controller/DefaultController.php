@@ -9,8 +9,9 @@ use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController
 {
-	public function indexAction(): Response
+
+	public function indexAction(string $zoomToken): Response
 	{
-		return new Response('go zoom');
+		return new Response('go zoom' . $zoomToken);
 	}
 }
