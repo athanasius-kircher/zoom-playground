@@ -1,0 +1,7 @@
+{
+    "name": "athanasius/zoom-playground",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
